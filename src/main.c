@@ -9,12 +9,16 @@
 
 // Main function.
 int main(int argc, char *argv[]) {
+	// Variable to store character name in.
 	char name[20];
 
+	// Print some text
 	printf("\"goodbye cruel world\" - Kim\n");
 	printf("Before I die... What's your name?\n");
 	printf("Your name is?: ");
+	// Read at most 20 characters for name
 	scanf("%20s", name);
+	// Final text print
 	printf("See you in another life %s!\n", name);
 	// Return 0 on success.
 	return 0;
